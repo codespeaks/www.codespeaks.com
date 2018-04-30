@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content=">Codespeaks specializes in Web standards consulting.">
+        <link rel="icon" href="./favicon.ico">
+        
+        <title>Codespeaks</title>
+        
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/base.css" rel="stylesheet">
+        
+    </head>
+    <body>
+
+    {% include svg-icons.html %}
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1><a href="/">Codespeaks</a></h1>
+                <p class="lead">Web Standards &amp; Open Source Consulting</p>
+            </div>
+            {% content %}
+            {% include footer.html %}
+        </div>
+
+        </div>
+    </body>
+</html>
